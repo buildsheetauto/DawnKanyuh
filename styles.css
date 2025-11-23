@@ -179,12 +179,30 @@ a:hover {
   align-items: center;
   background-image:
     linear-gradient(135deg, rgba(5, 29, 21, 0.95), rgba(12, 58, 38, 0.92)),
-    url("assets/img/forest-hero.jpg");
+    url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1650&q=80");
   background-size: cover;
   background-position: center;
   color: #f5f7f2;
   overflow: hidden;
 }
+
+.hero-profile-photo {
+  position: absolute;
+  right: 3%;
+  bottom: 6%;
+  width: 160px;
+  height: 160px;
+  border-radius: 999px;
+  overflow: hidden;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.28);
+}
+
+.hero-profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 .hero-overlay {
   position: absolute;
@@ -322,6 +340,19 @@ a:hover {
   box-shadow: var(--shadow-soft);
   border: 1px solid rgba(9, 48, 35, 0.06);
 }
+.about-photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-photo img {
+  width: 170px;
+  height: 170px;
+  border-radius: 999px;
+  object-fit: cover;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.22);
+}
 
 /* Timeline / Experience */
 
@@ -453,6 +484,19 @@ a:hover {
   padding: 1.4rem 1.35rem;
   box-shadow: var(--shadow-soft);
   border: 1px solid rgba(9, 48, 35, 0.06);
+}
+.contact-photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.contact-photo img {
+  width: 110px;
+  height: 110px;
+  border-radius: 999px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.22);
 }
 
 .contact-list {
